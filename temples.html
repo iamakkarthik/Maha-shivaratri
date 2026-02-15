@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Top 20 Shiva Temples in the World | Mahashivaratri 2026</title>
+
+    <meta name="description"
+        content="Explore the top 20 Shiva temples in the world. Discover sacred Jyotirlingas, ancient temples, and powerful spiritual centers of Lord Shiva." />
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        :root {
+            --bg-dark: #0a001a;
+            --bg-darker: #05000f;
+            --accent: #00d4ff;
+            --gold: #ffd700;
+            --text: #f0f8ff;
+            --gray: #b0c4de;
+            --card: rgba(15, 5, 45, 0.75);
+            --border: rgba(0, 212, 255, 0.22);
+            --shadow: 0 14px 45px rgba(0, 0, 0, 0.65);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: var(--bg-dark);
+            color: var(--text);
+            line-height: 1.8;
+        }
+
+        /* ================= HEADER ================= */
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            background: linear-gradient(to bottom, rgba(10, 0, 35, 0.96), rgba(5, 0, 20, 0.96));
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border);
+        }
+
+        nav {
+            max-width: 1400px;
+            margin: auto;
+            padding: 1.2rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.6rem;
+            color: var(--accent);
+            text-decoration: none;
+            text-shadow: 0 0 22px rgba(0, 212, 255, .45);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2.8rem;
+        }
+
+        .nav-links a {
+            color: var(--gray);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1.08rem;
+            transition: all 0.35s ease;
+            position: relative;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: var(--accent);
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2.5px;
+            bottom: 0;
+            left: 50%;
+            background: var(--accent);
+            transition: width 0.35s ease, left 0.35s ease;
+            border-radius: 3px;
+        }
+
+        .nav-links a:hover::after,
+        .nav-links a.active::after {
+            width: 100%;
+            left: 0;
+        }
+
+        /* ================= HERO ================= */
+        .hero {
+            padding: 220px 6% 120px;
+            text-align: center;
+            background:
+                linear-gradient(rgba(5, 0, 20, 0.7), rgba(5, 0, 20, 0.9)),
+                url("https://images.unsplash.com/photo-1580130718646-9f694209b207?w=1600") center/cover no-repeat;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 4rem;
+            color: var(--accent);
+            text-shadow: 0 0 50px rgba(0, 212, 255, .5);
+        }
+
+        .hero p {
+            max-width: 900px;
+            margin: 1.2rem auto 0;
+            color: var(--gray);
+            font-size: 1.1rem;
+        }
+
+        /* ================= SECTION ================= */
+        section {
+            max-width: 1400px;
+            margin: auto;
+            padding: 110px 6%;
+        }
+
+        .section-title {
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            color: var(--gold);
+            margin-bottom: 1.5rem;
+            position: relative;
+        }
+
+        .section-title::after {
+            content: '';
+            width: 110px;
+            height: 3px;
+            background: var(--accent);
+            display: block;
+            margin: 18px auto 0;
+            border-radius: 4px;
+        }
+
+        .section-desc {
+            text-align: center;
+            max-width: 900px;
+            margin: 0 auto 3.5rem;
+            color: var(--gray);
+        }
+
+        /* ================= GRID ================= */
+        .temples-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2.4rem;
+        }
+
+        .temple-card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: transform .4s ease, box-shadow .4s ease;
+        }
+
+        .temple-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 18px 60px rgba(0, 212, 255, .25);
+        }
+
+        .temple-card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            transition: transform .5s ease;
+        }
+
+        .temple-card:hover img {
+            transform: scale(1.08);
+        }
+
+        .temple-content {
+            padding: 1.8rem;
+        }
+
+        .temple-content h3 {
+            font-family: 'Playfair Display', serif;
+            color: var(--accent);
+            margin-bottom: .4rem;
+        }
+
+        .location {
+            font-size: .9rem;
+            color: var(--gold);
+            margin-bottom: .8rem;
+        }
+
+        .temple-content p {
+            color: var(--gray);
+            font-size: .98rem;
+        }
+
+        /* ================= FOOTER ================= */
+        .footer-clean {
+            background: radial-gradient(circle at top, #120826, #060012);
+            padding: 4rem 1.5rem 2.5rem;
+            text-align: center;
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .footer-wrap {
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        /* BRAND */
+        .footer-brand {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.6rem;
+            margin-bottom: 1rem;
+        }
+
+        .footer-brand .om {
+            font-size: 2.2rem;
+            color: #b388ff;
+        }
+
+        .footer-brand .brand-name {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 2.6rem;
+            color: #40c4ff;
+            letter-spacing: 1px;
+        }
+
+        /* TAGLINE */
+        .footer-tagline {
+            font-size: 1rem;
+            color: #b0c4de;
+            opacity: 0.85;
+            margin-bottom: 2rem;
+        }
+
+        /* NAV */
+        .footer-nav {
+            display: flex;
+            justify-content: center;
+            gap: 2.5rem;
+            flex-wrap: wrap;
+            margin-bottom: 2.5rem;
+        }
+
+        .footer-nav a {
+            color: #cfdcff;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: color 0.3s ease;
+        }
+
+        .footer-nav a:hover {
+            color: #40c4ff;
+        }
+
+        /* DIVIDER */
+        .footer-divider {
+            width: 120px;
+            height: 2px;
+            margin: 0 auto 1.8rem;
+            background: linear-gradient(to right, transparent, #40c4ff, transparent);
+            opacity: 0.5;
+        }
+
+        /* BOTTOM */
+        .footer-bottom {
+            display: flex;
+            flex-direction: column;
+            gap: 0.4rem;
+            font-size: 0.95rem;
+            color: #9fb2d4;
+        }
+
+        .footer-bottom .designer {
+            color: #ffd700;
+            font-size: 0.9re m;
+        }
+
+        .designer {
+            color: var(--gold);
+        }
+
+        /* ================= RESPONSIVE ================= */
+        @media(max-width:768px) {
+            .hero h1 {
+                font-size: 2.8rem;
+            }
+        }
+        @media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+    #menu-toggle:checked ~ .nav-links {
+        display: flex;   /* or block / column */
+    }
+}
+@media (max-width: 768px) {
+
+    /* Hide desktop-style horizontal links by default on mobile */
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        align-items: center;           /* center links nicely */
+        width: 100%;
+        background: var(--bg-darker);  /* or #05000f or rgba(5,0,20,0.98) – make it SOLID so nothing shows through */
+        padding: 1.5rem 1rem 2.5rem;   /* good spacing inside menu */
+        /* REMOVE THESE LINES COMPLETELY (or comment them out) to stop overlay: */
+        /* position: absolute; */
+        /* top: 100%; */
+        /* left: 0; */
+        /* z-index: 999;  or any high value */
+    }
+
+    /* When checkbox is checked → show menu in normal flow (pushes content down) */
+    #menu-toggle:checked ~ .nav-links {
+        display: flex;
+    }
+
+    /* Extra space after menu so first content section isn't glued to it */
+    #menu-toggle:checked ~ .nav-links {
+        margin-bottom: 2rem;
+    }
+
+    /* Increase top padding on main to account for fixed header + open menu height */
+    main {
+        padding-top: 160px !important;   /* adjust to 180–220px if header is very tall or has big logo */
+    }
+
+    /* Ensure header doesn't get weird when menu opens */
+    header {
+        height: auto;                    /* let it expand if needed */
+    }
+
+    /* Make hamburger always visible/clickable */
+    .hamburger {
+        z-index: 1001;
+    }
+}
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <nav aria-label="Main navigation">
+            <div class="logo" aria-label="Mahadev – Home">🕉️ Mahadev</div>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html" >About</a>
+                <a href="temples.html"class="active" aria-current="page">Shiva Temples</a>
+                <a href="jyotirlingas.html">Jyotirlingas</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <h1>Top 20 Shiva Temples in the World</h1>
+        <p>
+            These sacred temples represent devotion, history, architectural brilliance,
+            and the eternal spiritual energy of Lord Shiva.
+        </p>
+    </section>
+
+    <!-- TEMPLES -->
+    <section>
+        <h2 class="section-title">Sacred Shiva Temples</h2>
+        <p class="section-desc">
+            Click on any temple image to view its exact location on Google Maps.
+        </p>
+
+        <div class="temples-grid">
+
+            <!-- Repeat this card pattern for all 20 temples -->
+            <div class="temple-card">
+                <a href="https://maps.google.com/?q=Kashi+Vishwanath+Temple" target="_blank">
+                    <img src="Maha-shivaratri/Kashi-Vishwanath-Temple.jpg" alt="Kashi Vishwanath">
+                </a>
+                <div class="temple-content">
+                    <h3>1. Kashi Vishwanath Temple</h3>
+                    <div class="location">Varanasi, Uttar Pradesh, India</div>
+                    <p>
+                        One of the twelve Jyotirlingas, believed to grant moksha and eternal liberation.
+                    </p>
+                </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="temple-card">
+                <a href="https://maps.google.com/?q=Kedarnath+Temple" target="_blank">
+                    <img src="Maha-shivaratri\Kedarnath-Mandir.jpg" alt="Kedarnath">
+                </a>
+                <div class="temple-content">
+                    <h3>2. Kedarnath Temple</h3>
+                    <div class="location">Uttarakhand, India</div>
+                    <p>
+                        Nestled in the Himalayas, Kedarnath is a Jyotirlinga associated with the Pandavas
+                        and represents immense spiritual endurance.
+                    </p>
+                </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="temple-card">
+                <a href="https://maps.google.com/?q=Somnath+Temple" target="_blank">
+                    <img src="Maha-shivaratri\Somanath_Temple.jpg" alt="Somnath">
+                </a>
+                <div class="temple-content">
+                    <h3>3. Somnath Temple</h3>
+                    <div class="location">Gujarat, India</div>
+                    <p>
+                        The first Jyotirlinga, symbolizing Shiva’s eternal presence.
+                        Rebuilt several times, it stands as a symbol of resilience.
+                    </p>
+                </div>
+            </div>
+
+            <!-- 4 -->
+            <div class="temple-card">
+                <a href="https://maps.google.com/?q=Mahakaleshwar+Temple+Ujjain" target="_blank">
+                    <img src="Maha-shivaratri\mahakaleswar temple.jpg" alt="Mahakaleshwar">
+                </a>
+                <div class="temple-content">
+                    <h3>4. Mahakaleshwar Temple</h3>
+                    <div class="location">Ujjain, Madhya Pradesh, India</div>
+                    <p>
+                        Famous for the unique Bhasma Aarti, Mahakaleshwar is a Jyotirlinga where Lord Shiva
+                        is worshipped as the Lord of Time.
+                    </p>
+                </div>
+            </div>
+
+            <!-- 5 -->
+            <div class="temple-card">
+                <a href="https://maps.google.com/?q=Rameshwaram+Temple" target="_blank">
+                    <img src="Maha-shivaratri\Rameshwaram_600.jpg" alt="Rameshwaram">
+                </a>
+                <div class="temple-content">
+                    <h3>5. Rameshwaram Temple</h3>
+                    <div class="location">Tamil Nadu, India</div>
+                    <p>
+                        Built by Lord Rama, this Jyotirlinga is known for the longest temple corridors
+                        and sacred theerthams.
+                    </p>
+                </div>
+            </div>
+
+            <!-- 6 -->
+            <div class="temple-card">
+                <a href="https://maps.google.com/?q=Trimbakeshwar+Temple" target="_blank">
+                    <img src="Maha-shivaratri\History-of-Trimbakeshwar-Temple.jpg" alt="Trimbakeshwar">
+                </a>
+                <div class="temple-content">
+                    <h3>6. Trimbakeshwar Temple</h3>
+                    <div class="location">Nashik, Maharashtra, India</div>
+                    <p>
+                        Origin of the sacred Godavari River, this Jyotirlinga features a unique three-faced lingam.
+                    </p>
+                </div>
+            </div>
+
+            <!-- 7 -->
+            <div class="temple-card">
+                <a href="https://maps.google.com/?q=Omkareshwar+Temple" target="_blank">
+                    <img src="Maha-shivaratri\Omkareshwar-Temple.jpg" alt="Omkareshwar">
+                </a>
+                <div class="temple-content">
+                    <h3>7. Omkareshwar Temple</h3>
+                    <div class="location">Madhya Pradesh, India</div>
+                    <p>
+                        Located on an Om-shaped island in the Narmada River, Omkareshwar is a powerful Jyotirlinga.
+                    </p>
+                </div>
+            </div>
+
+            <!-- 8 -->
+            <div class="temple-card">
+                <a href="https://maps.google.com/?q=Mallikarjuna+Temple+Srisailam" target="_blank">
+                    <img src="Maha-shivaratri\mallikarjun_4.jpg" alt="Mallikarjuna">
+                </a>
+                <div class="temple-content">
+                    <h3>8. Mallikarjuna Temple</h3>
+                    <div class="location">Srisailam, Andhra Pradesh, India</div>
+                    <p>
+                        A Jyotirlinga and Shakti Peetha together, located in the scenic Nallamala forests.
+                    </p>
+                </div>
+            </div>
+
+            <!-- 9 -->
+            <div class="temple-card">
+                <a href="https://maps.google.com/?q=Bhimashankar+Temple" target="_blank">
+                    <img src="Maha-shivaratri\_Bhimshankar_Main.jpg" alt="Bhimashankar">
+                </a>
+                <div class="temple-content">
+                    <h3>9. Bhimashankar Temple</h3>
+                    <div class="location">Maharashtra, India</div>
+                    <p>
+                        Surrounded by dense forests, this Jyotirlinga is associated with the legend of demon Bhima.
+                    </p>
+                </div>
+            </div>
+
+            <!-- 10 -->
+            <div class="temple-card">
+                <a href="https://maps.google.com/?q=Vaidyanath+Temple+Deoghar" target="_blank">
+                    <img src="Maha-shivaratri\Baidyanath-Temple.jpg" alt="Vaidyanath">
+                </a>
+                <div class="temple-content">
+                    <h3>10. Vaidyanath Temple</h3>
+                    <div class="location">Deoghar, Jharkhand, India</div>
+                    <p>
+                        Known as the healer Jyotirlinga, worshipped by Ravana for immortality.
+                    </p>
+                </div>
+            </div>
+
+            <!-- 11 -->
+            <div class="temple-card">
+                <a href="https://maps.google.com/?q=Nageshwar+Jyotirlinga" target="_blank">
+                    <img src="Maha-shivaratri\900551700Dwarka_Nageshwar_Temple_main.jpg" alt="Nageshwar">
+                </a>
+                <div class="temple-content">
+                    <h3>11. Nageshwar Temple</h3>
+                    <div class="location">Gujarat, India</div>
+                    <p>
+                        This Jyotirlinga symbolizes protection from poison and negative forces.
+                    </p>
+                </div>
+            </div>
+
+            <!-- 12 -->
+            <div class="temple-card">
+                <a href="https://maps.google.com/?q=Grishneshwar+Temple" target="_blank">
+                    <img src="Maha-shivaratri\grishneswarr.png" alt="Grishneshwar">
+                </a>
+                <div class="temple-content">
+                    <h3>12. Grishneshwar Temple</h3>
+                    <div class="location">Ellora, Maharashtra, India</div>
+                    <p>
+                        The twelfth Jyotirlinga, located near the UNESCO-listed Ellora Caves.
+                    </p>
+                </div>
+            </div>
+
+            <!-- 13 -->
+            <div class="temple-card">
+                <a href="https://maps.google.com/?q=Pashupatinath+Temple" target="_blank">
+                    <img src="Maha-shivaratri\pushpatinath temple.jpg" alt="Pashupatinath">
+                </a>
+                <div class="temple-content">
+                    <h3>13. Pashupatinath Temple</h3>
+                    <div class="location">Kathmandu, Nepal</div>
+                    <p>
+                        The most sacred Shiva temple outside India, located on the banks of the Bagmati River.
+                    </p>
+                </div>
+            </div>
+
+            <!-- 14 -->
+            <div class="temple-card">
+                <a href="https://maps.google.com/?q=Amarnath+Cave" target="_blank">
+                    <img src="Maha-shivaratri\Amarnath-Cave-Temple.jpg" alt="Amarnath">
+                </a>
+                <div class="temple-content">
+                    <h3>14. Amarnath Cave Temple</h3>
+                    <div class="location">Jammu & Kashmir, India</div>
+                    <p>
+                        Famous for the naturally forming ice lingam, accessible only during a sacred pilgrimage.
+                    </p>
+                </div>
+            </div>
+
+            <!-- 15 -->
+            <div class="temple-card">
+                <a href="https://maps.google.com/?q=Lingaraj+Temple+Bhubaneswar" target="_blank">
+                    <img src="Maha-shivaratri\Lingaraj-temple.png" alt="Lingaraj">
+                </a>
+                <div class="temple-content">
+                    <h3>15. Lingaraj Temple</h3>
+                    <div class="location">Odisha, India</div>
+                    <p>
+                        A magnificent ancient temple showcasing classic Kalinga architecture.
+                    </p>
+                </div>
+            </div>
+
+            <!-- 16 -->
+            <div class="temple-card">
+                <a href="https://maps.google.com/?q=Brihadeeswarar+Temple" target="_blank">
+                    <img src="Maha-shivaratri\Brihadeeswarar-temple.png" alt="Brihadeeswarar">
+                </a>
+                <div class="temple-content">
+                    <h3>16. Brihadeeswarar Temple</h3>
+                    <div class="location">Thanjavur, Tamil Nadu, India</div>
+                    <p>
+                        A UNESCO World Heritage Site built by Raja Raja Chola with a massive Shiva lingam.
+                    </p>
+                </div>
+            </div>
+
+            <!-- 17 -->
+            <div class="temple-card">
+                <a href="https://maps.google.com/?q=Kailasanathar+Temple+Kanchipuram" target="_blank">
+                    <img src="Maha-shivaratri\Kanchi-Kailasanathar.jpg" alt="Kailasanathar">
+                </a>
+                <div class="temple-content">
+                    <h3>17. Kailasanathar Temple</h3>
+                    <div class="location">Kanchipuram, Tamil Nadu, India</div>
+                    <p>
+                        One of the oldest stone temples in South India, dedicated to Lord Shiva.
+                    </p>
+                </div>
+            </div>
+
+            <!-- 18 -->
+            <div class="temple-card">
+                <a href="https://maps.google.com/?q=Baijnath+Temple+Himachal" target="_blank">
+                    <img src="Maha-shivaratri\Shiva_temple_baijnath_HP.jpg" alt="Baijnath">
+                </a>
+                <div class="temple-content">
+                    <h3>18. Baijnath Temple</h3>
+                    <div class="location">Himachal Pradesh, India</div>
+                    <p>
+                        A serene Himalayan temple known for its ancient stone architecture.
+                    </p>
+                </div>
+            </div>
+
+            <!-- 19 -->
+            <div class="temple-card">
+                <a href="https://maps.google.com/?q=Murudeshwar+Temple" target="_blank">
+                    <img src="Maha-shivaratri\murudeshwara-temple-.jpg" alt="Murudeshwar">
+                </a>
+                <div class="temple-content">
+                    <h3>19. Murudeshwar Temple</h3>
+                    <div class="location">Karnataka, India</div>
+                    <p>
+                        Famous for the towering 123-foot Shiva statue overlooking the Arabian Sea.
+                    </p>
+                </div>
+            </div>
+
+            <!-- 20 -->
+            <div class="temple-card">
+                <a href="https://maps.google.com/?q=Badrinath+Temple" target="_blank">
+                    <img src="Maha-shivaratri\badrinath-yatra.jpg" alt="Badrinath">
+                </a>
+                <div class="temple-content">
+                    <h3>20. Badrinath Temple</h3>
+                    <div class="location">Uttarakhand, India</div>
+                    <p>
+                        Though primarily Vishnu’s abode, Badrinath holds deep Shiva associations in ancient lore.
+                    </p>
+                </div>
+
+
+            </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer-clean">
+        <div class="footer-wrap">
+
+            <div class="footer-brand">
+                <span class="om">ॐ</span>
+                <span class="brand-name">Mahadev</span>
+            </div>
+
+            <p class="footer-tagline">
+                Mahashivaratri 2026 • A Divine Celebration of Lord Shiva
+            </p>
+
+            <nav class="footer-nav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="temples.html">Shiva Temples</a>
+                <a href="jyotirlingas.html">Jyotirlingas</a>
+            </nav>
+
+            <div class="footer-divider"></div>
+
+            <div class="footer-bottom">
+                <span>© 2026 Mahashivaratri • Har Har Mahadev</span>
+                <span class="designer">Designed & Developed by Karthik</span>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

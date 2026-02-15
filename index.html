@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Mahashivaratri 2026 – Har Har Mahadev</title>
+
+    <meta name="description"
+        content="Celebrate Mahashivaratri 2026 – the great night of Lord Shiva. Discover sacred significance, rituals, fasting, mantras, stories, and famous celebrations." />
+    <link rel="stylesheet" href="style.css">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <style>
+        :root {
+            --bg-dark: #0a001a;
+            --bg-darker: #05000f;
+            --accent: #00d4ff;
+            --gold: #ffd700;
+            --text: #f0f8ff;
+            --gray: #b0c4de;
+            --card: rgba(15, 5, 45, 0.75);
+            --border: rgba(0, 212, 255, 0.22);
+            --shadow: 0 12px 40px rgba(0, 0, 0, 0.6);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: var(--bg-dark);
+            color: var(--text);
+            line-height: 1.9;
+        }
+
+        /* HEADER */
+        header {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            background: linear-gradient(to bottom, rgba(10, 0, 35, 0.96), rgba(5, 0, 20, 0.96));
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border);
+        }
+
+        nav {
+            max-width: 1400px;
+            margin: auto;
+            padding: 1.2rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.6rem;
+            color: var(--accent);
+            text-shadow: 0 0 22px rgba(0, 212, 255, .45);
+        }
+
+
+
+        /* HERO */
+        .hero {
+            padding: 220px 6% 160px;
+            text-align: center;
+            background:
+                linear-gradient(rgba(5, 0, 20, 0.65), rgba(5, 0, 20, 0.85)),
+                url("https://images.unsplash.com/photo-1583224474476-c4ef1c4a9c79?w=1600") center/cover no-repeat;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 4.8rem;
+            color: var(--accent);
+            text-shadow: 0 0 55px rgba(0, 212, 255, .5);
+        }
+
+        .hero p {
+            margin-top: 1rem;
+            font-size: 1.25rem;
+            color: var(--gray);
+        }
+
+        .hero .date {
+            margin-top: .8rem;
+            color: var(--gold);
+            font-size: 1.15rem;
+        }
+
+        /* SECTION */
+        section {
+            max-width: 1400px;
+            margin: auto;
+            padding: 110px 6%;
+        }
+
+        .section-title {
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            color: var(--gold);
+            margin-bottom: 1.5rem;
+            position: relative;
+        }
+
+        .section-title::after {
+            content: '';
+            width: 110px;
+            height: 3px;
+            background: var(--accent);
+            display: block;
+            margin: 18px auto 0;
+            border-radius: 4px;
+        }
+
+        .section-desc {
+            text-align: center;
+            max-width: 900px;
+            margin: 0 auto 3rem;
+            color: var(--gray);
+        }
+
+        /* GRID */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2.4rem;
+        }
+
+        .card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 2.6rem;
+            box-shadow: var(--shadow);
+        }
+
+        .card h3 {
+            font-family: 'Playfair Display', serif;
+            color: var(--accent);
+            margin-bottom: 1rem;
+        }
+
+        /* TABS */
+        .tabs {
+            display: flex;
+            justify-content: center;
+            gap: 1.4rem;
+            margin-bottom: 3rem;
+            flex-wrap: wrap;
+        }
+
+        .tab-btn {
+            padding: .7rem 1.7rem;
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 30px;
+            cursor: pointer;
+            color: var(--gray);
+        }
+
+        .tab-btn.active {
+            color: var(--accent);
+            border-color: var(--accent);
+        }
+
+        .tab-content {
+            display: none
+        }
+
+        .tab-content.active {
+            display: block
+        }
+
+        /* STORY */
+        .story-box {
+            background: var(--card);
+            padding: 3rem;
+            border-radius: 20px;
+            box-shadow: var(--shadow);
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .story-box p {
+            margin-bottom: 1.6rem;
+            color: var(--gray);
+        }
+
+        /* PLACES */
+        .places-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2.4rem;
+        }
+
+        .place-card {
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+        }
+
+        .place-card img {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+        }
+
+        .place-info {
+            padding: 1.6rem;
+        }
+
+        .place-info h3 {
+            color: var(--accent);
+        }
+
+        /* MANTRA */
+        .mantra {
+            background: var(--card);
+            padding: 2.2rem;
+            border-radius: 18px;
+            margin-bottom: 2rem;
+            text-align: center;
+            box-shadow: var(--shadow);
+        }
+
+        .mantra h3 {
+            font-family: 'Playfair Display', serif;
+            color: var(--gold);
+        }
+
+        /* FOOTER */
+        footer {
+            background: radial-gradient(circle at top, #120826, #060012);
+            padding: 4rem 2rem 3rem;
+            text-align: center;
+        }
+
+        .footer-logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.4rem;
+            color: var(--accent);
+        }
+
+        footer p {
+            color: var(--gray)
+        }
+
+        /* RESPONSIVE */
+        @media(max-width:1024px) {
+            .grid {
+                grid-template-columns: repeat(2, 1fr)
+            }
+        }
+
+        @media(max-width:768px) {
+            .hero h1 {
+                font-size: 3.4rem
+            }
+
+            .places-grid {
+                grid-template-columns: 1fr
+            }
+        }
+
+        @media(max-width:576px) {
+            .grid {
+                grid-template-columns: 1fr
+            }
+        }
+
+        /* PRACTICES GRID */
+        .practice-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+        }
+
+        .practice-card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 18px;
+            padding: 2.2rem;
+            box-shadow: var(--shadow);
+        }
+
+        .practice-card h4 {
+            font-family: 'Playfair Display', serif;
+            color: var(--gold);
+            margin-bottom: .8rem;
+        }
+
+        .practice-card p {
+            color: var(--gray);
+            font-size: 1rem;
+        }
+
+        /* MANTRA GRID */
+        .mantra-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .mantra span {
+            display: block;
+            margin-top: .6rem;
+            font-size: .95rem;
+            color: var(--gray);
+        }
+
+        @media(max-width:768px) {
+
+            .practice-grid,
+            .mantra-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        :root {
+            --bg-dark: #0a001a;
+            --bg-darker: #05000f;
+            --accent: #00d4ff;
+            --gold: #ffd700;
+            --text: #f0f8ff;
+            --gray: #b0c4de;
+            --card: rgba(15, 5, 45, 0.75);
+            --border: rgba(0, 212, 255, 0.22);
+            --shadow: 0 12px 40px rgba(0, 0, 0, 0.6);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: var(--bg-dark);
+            color: var(--text);
+            line-height: 1.9;
+        }
+
+        /* HEADER */
+        header {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            background: linear-gradient(to bottom, rgba(10, 0, 35, 0.96), rgba(5, 0, 20, 0.96));
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border);
+        }
+
+        nav {
+            max-width: 1400px;
+            margin: auto;
+            padding: 1.2rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.6rem;
+            color: var(--accent);
+            text-shadow: 0 0 22px rgba(0, 212, 255, .45);
+        }
+
+
+
+        /* HERO */
+        .hero {
+            padding: 220px 6% 160px;
+            text-align: center;
+            background:
+                linear-gradient(rgba(5, 0, 20, 0.65), rgba(5, 0, 20, 0.85)),
+                url("https://images.unsplash.com/photo-1583224474476-c4ef1c4a9c79?w=1600") center/cover no-repeat;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 4.8rem;
+            color: var(--accent);
+            text-shadow: 0 0 55px rgba(0, 212, 255, .5);
+        }
+
+        .hero p {
+            margin-top: 1rem;
+            font-size: 1.25rem;
+            color: var(--gray);
+        }
+
+        .hero .date {
+            margin-top: .8rem;
+            color: var(--gold);
+            font-size: 1.15rem;
+        }
+
+        /* SECTION */
+        section {
+            max-width: 1400px;
+            margin: auto;
+            padding: 110px 6%;
+        }
+
+        .section-title {
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            color: var(--gold);
+            margin-bottom: 1.5rem;
+        }
+
+        .section-title::after {
+            content: '';
+            width: 110px;
+            height: 3px;
+            background: var(--accent);
+            display: block;
+            margin: 18px auto 0;
+            border-radius: 4px;
+        }
+
+        .section-desc {
+            text-align: center;
+            max-width: 900px;
+            margin: 0 auto 3rem;
+            color: var(--gray);
+        }
+
+        /* GRID */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2.4rem;
+        }
+
+        .card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 2.6rem;
+            box-shadow: var(--shadow);
+        }
+
+        /* PLACES WITH HOVER */
+        .places-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2.4rem;
+        }
+
+        .place-card {
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 22px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: transform .4s ease, box-shadow .4s ease;
+        }
+
+        .place-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 60px rgba(0, 212, 255, 0.35);
+        }
+
+        .place-card img {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+            transition: transform .6s ease;
+        }
+
+        .place-card:hover img {
+            transform: scale(1.08);
+        }
+
+        .place-info {
+            padding: 1.6rem;
+            transition: color .3s ease;
+        }
+
+        .place-card:hover .place-info h3 {
+            color: var(--gold);
+        }
+
+        .place-info h3 {
+            color: var(--accent);
+        }
+
+        /* PRACTICES GRID */
+        .practice-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+        }
+
+        .practice-card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 18px;
+            padding: 2.2rem;
+            box-shadow: var(--shadow);
+        }
+
+        .practice-card h4 {
+            font-family: 'Playfair Display', serif;
+            color: var(--gold);
+            margin-bottom: .8rem;
+        }
+
+        /* MANTRA GRID */
+        .mantra-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .mantra {
+            background: var(--card);
+            padding: 2.2rem;
+            border-radius: 18px;
+            text-align: center;
+            box-shadow: var(--shadow);
+        }
+
+        .mantra h3 {
+            font-family: 'Playfair Display', serif;
+            color: var(--gold);
+        }
+
+        .mantra span {
+            display: block;
+            margin-top: .6rem;
+            font-size: .95rem;
+            color: var(--gray);
+        }
+
+        /* FOOTER */
+        footer {
+            background: radial-gradient(circle at top, #120826, #060012);
+            padding: 4.5rem 2rem 3rem;
+        }
+
+        .footer-wrap {
+            max-width: 1200px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .footer-brand {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: .6rem;
+            font-family: 'Playfair Display', serif;
+            font-size: 2.6rem;
+            color: var(--accent);
+        }
+
+        .footer-tagline {
+            margin: 1rem 0 2rem;
+            color: var(--gray);
+        }
+
+        .footer-nav {
+            display: flex;
+            justify-content: center;
+            gap: 2.4rem;
+            flex-wrap: wrap;
+        }
+
+        .footer-nav a {
+            color: var(--gray);
+            text-decoration: none;
+        }
+
+        .footer-nav a:hover {
+            color: var(--accent);
+        }
+
+        .footer-divider {
+            width: 100%;
+            height: 1px;
+            background: var(--border);
+            margin: 2.4rem 0 1.8rem;
+        }
+
+        .footer-bottom {
+            display: flex;
+            justify-content: space-between;
+            color: var(--gray);
+            font-size: .95rem;
+            flex-wrap: wrap;
+            gap: .8rem;
+        }
+
+        /* RESPONSIVE */
+        @media(max-width:768px) {
+
+            .grid,
+            .places-grid,
+            .practice-grid,
+            .mantra-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-bottom {
+                justify-content: center;
+            }
+
+            .hero h1 {
+                font-size: 3.4rem;
+            }
+        }
+
+        .footer-clean {
+            background: radial-gradient(circle at top, #120826, #060012);
+            padding: 4rem 1.5rem 2.5rem;
+            text-align: center;
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .footer-wrap {
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        /* BRAND */
+        .footer-brand {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.6rem;
+            margin-bottom: 1rem;
+        }
+
+        .footer-brand .om {
+            font-size: 2.2rem;
+            color: #b388ff;
+        }
+
+        .footer-brand .brand-name {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 2.6rem;
+            color: #40c4ff;
+            letter-spacing: 1px;
+        }
+
+        /* TAGLINE */
+        .footer-tagline {
+            font-size: 1rem;
+            color: #b0c4de;
+            opacity: 0.85;
+            margin-bottom: 2rem;
+        }
+
+        /* NAV */
+        .footer-nav {
+            display: flex;
+            justify-content: center;
+            gap: 2.5rem;
+            flex-wrap: wrap;
+            margin-bottom: 2.5rem;
+        }
+
+        .footer-nav a {
+            color: #cfdcff;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: color 0.3s ease;
+        }
+
+        .footer-nav a:hover {
+            color: #40c4ff;
+        }
+
+        /* DIVIDER */
+        .footer-divider {
+            width: 120px;
+            height: 2px;
+            margin: 0 auto 1.8rem;
+            background: linear-gradient(to right, transparent, #40c4ff, transparent);
+            opacity: 0.5;
+        }
+
+        /* BOTTOM */
+        .footer-bottom {
+            display: flex;
+            flex-direction: column;
+            gap: 0.4rem;
+            font-size: 0.95rem;
+            color: #9fb2d4;
+        }
+
+        .footer-bottom .designer {
+            color: #ffd700;
+            font-size: 0.9re m;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2.8rem;
+        }
+
+        .nav-links a {
+            color: var(--gray);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1.08rem;
+            transition: all 0.35s ease;
+            position: relative;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: var(--accent);
+        }
+
+       
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2.5px;
+            bottom: 0;
+            left: 50%;
+            background: var(--accent);
+            transition: width 0.35s ease, left 0.35s ease;
+            border-radius: 3px;
+        }
+
+        .nav-links a:hover::after,
+        .nav-links a.active::after {
+            width: 100%;
+            left: 0;
+        }
+        @media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+    #menu-toggle:checked ~ .nav-links {
+        display: flex;   /* or block / column */
+    }
+}
+@media (max-width: 768px) {
+
+    /* Hide desktop-style horizontal links by default on mobile */
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        align-items: center;           /* center links nicely */
+        width: 100%;
+        background: var(--bg-darker);  /* or #05000f or rgba(5,0,20,0.98) – make it SOLID so nothing shows through */
+        padding: 1.5rem 1rem 2.5rem;   /* good spacing inside menu */
+        /* REMOVE THESE LINES COMPLETELY (or comment them out) to stop overlay: */
+        /* position: absolute; */
+        /* top: 100%; */
+        /* left: 0; */
+        /* z-index: 999;  or any high value */
+    }
+
+    /* When checkbox is checked → show menu in normal flow (pushes content down) */
+    #menu-toggle:checked ~ .nav-links {
+        display: flex;
+    }
+
+    /* Extra space after menu so first content section isn't glued to it */
+    #menu-toggle:checked ~ .nav-links {
+        margin-bottom: 2rem;
+    }
+
+    /* Increase top padding on main to account for fixed header + open menu height */
+    main {
+        padding-top: 160px !important;   /* adjust to 180–220px if header is very tall or has big logo */
+    }
+
+    /* Ensure header doesn't get weird when menu opens */
+    header {
+        height: auto;                    /* let it expand if needed */
+    }
+
+    /* Make hamburger always visible/clickable */
+    .hamburger {
+        z-index: 1001;
+    }
+}
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav aria-label="Main navigation">
+            <div class="logo" aria-label="Mahadev – Home">🕉️ Mahadev</div>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <div class="nav-links">
+                <a href="index.html"class="active" aria-current="page">Home</a>
+                <a href="about.html" >About</a>
+                <a href="temples.html">Shiva Temples</a>
+                <a href="jyotirlingas.html">Jyotirlingas</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Har Har Mahadev</h1>
+        <p>The Great Night of Lord Shiva</p>
+        <div class="date">Mahashivaratri • 15 February 2026</div>
+    </section>
+
+    <section>
+        <h2 class="section-title">Sacred Significance</h2>
+        <p class="section-desc">
+            Maha Shivaratri represents the convergence of cosmic energy, inner awakening, and divine consciousness.
+        </p>
+
+        <div class="grid">
+            <div class="card">
+                <h3>The Moonless Night</h3>
+                <p>Observed on the darkest night, symbolizing dissolution of ego and union with supreme awareness.</p>
+            </div>
+            <div class="card">
+                <h3>Overcoming Darkness</h3>
+                <p>A sacred night of meditation to conquer ignorance and awaken spiritual clarity.</p>
+            </div>
+            <div class="card">
+                <h3>Divine Union</h3>
+                <p>Marks the celestial union of Lord Shiva and Goddess Parvati — balance of energy and devotion.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="section-title">Mahashivaratri Practices</h2>
+
+        <div class="tabs">
+            <div class="tab-btn active" onclick="openTab(event,'story')">Story</div>
+            <div class="tab-btn" onclick="openTab(event,'food')">Food</div>
+            <div class="tab-btn" onclick="openTab(event,'fasting')">Fasting</div>
+            <div class="tab-btn" onclick="openTab(event,'rituals')">Rituals</div>
+        </div>
+
+        <!-- STORY -->
+        <div id="story" class="tab-content active">
+            <div class="practice-grid">
+                <div class="practice-card">
+                    <h4>Cosmic Origins</h4>
+                    <p>Maha Shivaratri signifies the emergence of Lord Shiva as the infinite Jyotirlinga — the eternal,
+                        formless pillar of light.</p>
+                </div>
+                <div class="practice-card">
+                    <h4>Divine Marriage</h4>
+                    <p>This sacred night commemorates the celestial union of Lord Shiva and Goddess Parvati, symbolizing
+                        balance of Shakti and consciousness.</p>
+                </div>
+                <div class="practice-card">
+                    <h4>Neelkantha Legend</h4>
+                    <p>During Samudra Manthan, Shiva consumed poison to save the universe, holding it in his throat and
+                        earning the name Neelkantha.</p>
+                </div>
+                <div class="practice-card">
+                    <h4>Spiritual Awakening</h4>
+                    <p>It is believed that sincere worship on this night accelerates spiritual growth and liberation.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOD -->
+        <div id="food" class="tab-content">
+            <div class="practice-grid">
+                <div class="practice-card">
+                    <h4>Satvik Diet</h4>
+                    <p>Foods prepared without onion, garlic, grains, or spices to maintain purity and calmness.</p>
+                </div>
+                <div class="practice-card">
+                    <h4>Allowed Foods</h4>
+                    <p>Fruits, milk, curd, coconut water, sabudana, makhana, nuts, and honey.</p>
+                </div>
+                <div class="practice-card">
+                    <h4>Symbolic Meaning</h4>
+                    <p>Simple food reflects detachment, discipline, and devotion to Shiva.</p>
+                </div>
+                <div class="practice-card">
+                    <h4>Mindful Eating</h4>
+                    <p>Food is consumed as prasadam, focusing on gratitude rather than indulgence.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- FASTING -->
+        <div id="fasting" class="tab-content">
+            <div class="practice-grid">
+                <div class="practice-card">
+                    <h4>Nirjala Fast</h4>
+                    <p>Complete fast without food or water, observed by advanced devotees.</p>
+                </div>
+                <div class="practice-card">
+                    <h4>Phalahar</h4>
+                    <p>Fruit-based fasting for those unable to observe a strict fast.</p>
+                </div>
+                <div class="practice-card">
+                    <h4>Inner Cleansing</h4>
+                    <p>Fasting helps purify the body, sharpen focus, and calm the mind.</p>
+                </div>
+                <div class="practice-card">
+                    <h4>Spiritual Discipline</h4>
+                    <p>Represents control over senses and dedication to higher consciousness.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- RITUALS -->
+        <div id="rituals" class="tab-content">
+            <div class="practice-grid">
+                <div class="practice-card">
+                    <h4>Abhishekam</h4>
+                    <p>Ritual bathing of Shiva Lingam with milk, honey, curd, ghee, and water.</p>
+                </div>
+                <div class="practice-card">
+                    <h4>Bilva Archana</h4>
+                    <p>Offering bilva leaves is considered highly auspicious and dear to Lord Shiva.</p>
+                </div>
+                <div class="practice-card">
+                    <h4>Jagaran</h4>
+                    <p>Staying awake all night in meditation, chanting, and devotional singing.</p>
+                </div>
+                <div class="practice-card">
+                    <h4>Mantra Japa</h4>
+                    <p>Continuous chanting of Shiva mantras for spiritual elevation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <h2 class="section-title">Famous Shivaratri Celebrations</h2>
+
+        <div class="places-grid">
+            <div class="place-card">
+                <img src="Maha-shivaratri\Kashi-Vishwanath-Temple.jpg">
+                <div class="place-info">
+                    <h3>Kashi Vishwanath – Varanasi</h3>
+                    <p>The city resonates with chants, Ganga snan, and all-night devotion.</p>
+                </div>
+            </div>
+
+            <div class="place-card">
+                <img src="Maha-shivaratri\mahakaleswar temple.jpg">
+                <div class="place-info">
+                    <h3>Mahakaleshwar – Ujjain</h3>
+                    <p>The divine Bhasma Aarti at midnight is a rare and powerful sight.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="section-title">Sacred Mantras</h2>
+
+        <div class="mantra-grid">
+            <div class="mantra">
+                <h3>ॐ नमः शिवाय</h3>
+                <span>Om Namah Shivaya</span>
+            </div>
+
+            <div class="mantra">
+                <h3>ॐ त्र्यम्बकं यजामहे</h3>
+                <span>Om Tryambakam Yajamahe Sugandhim Pushtivardhanam</span>
+            </div>
+
+            <div class="mantra">
+                <h3>ॐ नमो भगवते रुद्राय</h3>
+                <span>Om Namo Bhagavate Rudraya</span>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer-clean">
+        <div class="footer-wrap">
+
+            <div class="footer-brand">
+                <span class="om">ॐ</span>
+                <span class="brand-name">Mahadev</span>
+            </div>
+
+            <p class="footer-tagline">
+                Mahashivaratri 2026 • A Divine Celebration of Lord Shiva
+            </p>
+
+            <nav class="footer-nav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="temples.html">Shiva Temples</a>
+                <a href="jyotirlingas.html">Jyotirlingas</a>
+            </nav>
+
+            <div class="footer-divider"></div>
+
+            <div class="footer-bottom">
+                <span>© 2026 Mahashivaratri • Har Har Mahadev</span>
+                <span class="designer">Designed & Developed by Karthik</span>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+    <script>
+        function openTab(e, id) {
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+            e.target.classList.add('active');
+            document.getElementById(id).classList.add('active');
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
